@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+.head_graffiti_make{
+  display: inline-block;
+  position: relative;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: slide 6s linear infinite;
+  background-size: auto 400px;
+  background-position: left 0px;
+  background-image: linear-gradient(to bottom, #ff3366 0px, #ff3366 100px, 
+                                              #ffcc00 182px, #ffcc00 200px, 
+                                              #00ccff 302px, #00ccff 350px,
+                                             #fff 352px, #fff 398px,);
+}
+.head_graffiti_make:nth-child(odd) {
+  top: 30px;
+  background-image: linear-gradient(to bottom, #ff3366 0px, #ff3366 70px,
+                                               #ffcc00 72px, #ffcc00 100px,
+                                               #00ccff 102px, #00ccff 150px,
+                                                 #fff 152px, #fff 170px);
+}
+
+@keyframes slide {
+  100% {
+    background-position: left -400px;
+  }
+}
+
+.head_location_1{
+  display: inline-block;
+  position: relative;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: slide 6s linear infinite;
+  background-size: auto 400px;
+  background-position: left 0px;
+  background-image: linear-gradient(to bottom, #ff3366 0px, #ff3366 100px, 
+                                              #ffcc00 182px, #ffcc00 200px, 
+                                              #00ccff 302px, #00ccff 350px,
+                                             #fff 352px, #fff 398px,);
+}
+.head_location_1:nth-child(odd) {
+  top: 30px;
+  background-image: linear-gradient(to bottom, #ff3366 0px, #ff3366 70px,
+                                               #ffcc00 72px, #ffcc00 100px,
+                                               #00ccff 102px, #00ccff 150px,
+                                                 #fff 152px, #fff 170px);
+}
+
+@keyframes slide {
+  100% {
+    background-position: left -400px;
+  }
+}

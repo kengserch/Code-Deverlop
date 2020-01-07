@@ -1,0 +1,141 @@
+<?php
+
+    include_once('connect.php');
+
+
+    $sql = "SELECT * FROM workType";
+    $result = $conn->query($sql) or die($conn->error);
+    $conn = new mysqli('localhost','root','','fastest_work');
+    mysqli_set_charset($conn,"utf8");
+
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HOME</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+   
+    <style>
+        body{font-family: 'Chakra Petch', sans-serif;}
+        a{
+            color: white; /* blue colors for links too */
+            text-decoration: inherit;
+        }
+        a:hover{
+            color: white;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <header>
+        <div class="container-fluid " style="background : #ff5252;">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center p-2 " style="font-size:2em; color:white;">
+                <a href="index.php">FASTER WORK</a> 
+                </div>
+                
+
+            </div>
+            
+        </div>
+    </header> 
+    
+
+    <div class="banner ">
+       
+        <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2553&h=720" class="img-fluid" alt="Responsive image">
+         
+    </div>
+
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-6 justify-content-end p-3">
+            <button type="button" class="btn btn-dark" ><a href="index.php">
+                BACK TO HOMEPAGE </a></button>
+            
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container text-center" style="font-size:1.5em;">
+        <div class="row" >
+            <h1 class="col-12  p-4 rounded" style="font-weight:bold;">WORK DESIGN LIST</h1>
+                
+        </div>
+    </div>
+        
+        <br><br><br>
+       
+       
+            
+        <div class="container">
+        <div class="row">
+        <?php
+        while($rowType = $result->fetch_assoc()):  ?>
+       
+           
+                <div class="col-4">
+        
+        <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+        <div class="card-header">ประเภทงาน</div>
+        <div class="card-body">
+        <h4 class="card-title"><?php echo $rowType['workTypeName']; ?></h4>
+        <p class="card-text"><?php   echo "รหัสประเภทงาน : ",$rowType['idWorkType'];?></p>
+        </div>
+        </div>
+        </div>
+        <?php endwhile; ?>
+        <?php $count = $result->num_rows; ?>
+        
+        
+        </div>
+        </div>             
+        
+
+
+        
+        
+
+        <div class="headerExample container text-right">
+            <h3>จำนวนงาน <?php echo $count ?> รายการ</h3>
+        </div>
+        <br><br>
+            
+           
+            
+
+        </div>
+    </div>
+
+    <br><br><br><br>
+
+    footer>
+
+    <div class="container-fluid text-center" style="background: #ff5252;color: #fff; ">
+    <div class="row">
+        
+        <div class="col-12 p-3"><h4>FASTEST WORK</h4> <br> COPYRIGHT BY FASTEST WORK 2019 </div>
+        
+    </div>
+    </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
+    

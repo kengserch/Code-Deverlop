@@ -1,0 +1,917 @@
+@font-face {
+    font-family: 'dumbnerdregular';
+    src: url('../font/dumbnerd-webfont.eot');
+    src: url('../font/dumbnerd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/dumbnerd-webfont.woff2') format('woff2'),
+         url('../font/dumbnerd-webfont.woff') format('woff'),
+         url('../font/dumbnerd-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'loudhailerregular';
+    src: url('../font/loudhailer-webfont.eot');
+    src: url('../font/loudhailer-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/loudhailer-webfont.woff2') format('woff2'),
+         url('../font/loudhailer-webfont.woff') format('woff'),
+         url('../font/loudhailer-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'psl_advertspregular';
+    src: url('../font/psl021sp-webfont.eot');
+    src: url('../font/psl021sp-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/psl021sp-webfont.woff2') format('woff2'),
+         url('../font/psl021sp-webfont.woff') format('woff'),
+         url('../font/psl021sp-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'psl_kandaregular';
+    src: url('../font/psl152-webfont.eot');
+    src: url('../font/psl152-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/psl152-webfont.woff2') format('woff2'),
+         url('../font/psl152-webfont.woff') format('woff'),
+         url('../font/psl152-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{box-sizing: border-box;}
+body{
+
+	background: gray;
+}
+#wrapper{
+    
+    width: 1480px;
+    margin: 0 auto;
+    background: black;
+  
+ 
+}
+.banner{
+    
+    width: 100%;
+	height: 808px;
+	background-image:url("../image/pagehome/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.logo_contact{
+    width: 300px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 37px;
+}
+.face_banner:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.twitter_banner:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.youtube_banner:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.logo_banner{
+    width: 220px;
+    height: 210px;
+    padding-left: 630px;
+    padding-top: 15px;
+    
+}
+.logo_banner img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.text_banner{
+width: 100%;
+height: 390px;
+background-color: rgba(0,0,0,0.6);
+margin-top: 30px;
+position: relative;
+}
+.text_banner h1{
+    border-top: 400px;
+    font-family: 'dumbnerdregular';
+    font-size: 220pt;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    position: relative;
+    
+}
+.text_banner h2{
+    font-family: 'dumbnerdregular';
+    font-size: 87pt;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    position: relative;
+    top: -40px;
+    
+}
+
+.line_1{
+    height: 10px;
+    width: 228px;
+    background-color: white;  
+    position: relative;
+    top: -100px;
+    left: 300px;
+}
+.line_2{
+    
+    height: 10px;
+    width: 228px;
+    background-color: white;
+    position: relative;
+    float: right;
+    top:-110px;
+    right: 300px;
+}
+.box_menu{
+    height: 140px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    float: left;
+    
+
+}
+.menu_bar{
+    width: 100%;
+    height: 60px;
+    /* background-color: aquamarine; */
+    position: relative;
+    top: 43px;
+}
+.menu_bar a{
+font-family: 'loudhailerregular';
+   font-size: 38pt;
+   color: white;
+   text-decoration: none;
+   margin-left: 45px;
+   padding-left: 30px;
+   
+}
+.menu_bar a:hover{
+    cursor: pointer;
+    color: #ff6699;
+    text-decoration-line: underline;
+}
+
+#wrapper_head_graffiti{
+    height: 350px;
+    width: 100%;
+    background: #000;
+    position: relative;
+}
+.head_graffiti_make{
+   font-family: 'loudhailerregular';
+   font-size: 125pt;
+   color: #ff3366;
+   text-decoration: underline;
+   top: 40px;
+   position: relative;
+   padding-left: 268px;
+   
+}
+.head_graffiti:hover{
+    color: #ffcc00;
+    transition-duration: 0.5s;
+}
+.head_graffiti1{
+    font-family: 'psl_advertspregular';
+    color: #fff;
+    font-size: 80pt;
+    
+    font-weight: normal;
+    top : 50px;
+    position: relative;
+    text-align: center;
+ }
+ #wrapper_wall{
+     width: 100%;
+     height: 900px;
+     background-image:url("../image/pagemakegraffitiwall/wallbrick.jpg");
+	 background-repeat: no-repeat;
+	 background-size: cover;
+ }
+ .wrapper_select{
+    width: 100%;
+    height: 150px;
+    top: 295px;
+    
+    background: #333333;
+    position: relative;
+ }
+
+ .box_button1{
+     width: 246.666666666666667px;
+     height: 100%;
+     background: #333333;
+     float: left;
+     border: 1px solid #000;
+ }
+ .box_button2{
+    width: 246.666666666666667px;
+    height: 100%;
+    background: #333333;
+    float: left;
+    border: 1px solid #000;
+}
+.box_button3{
+    width: 246.666666666666667px;
+    height: 100%;
+    background: #333333;
+    float: left;
+    border: 1px solid #000;
+}
+.box_button4{
+    width: 246.666666666666667px;
+    height: 100%;
+    background: #333333;
+    float: left;
+    border: 1px solid #000;
+}
+.box_button5{
+    width: 246.666666666666667px;
+    height: 100%;
+    background: #333333;
+    float: left;
+    border: 1px solid #000;
+}
+.box_button6{
+    width: 246.666666666666667px;
+    height: 100%;
+    background: #333333;
+    float: left;
+    border: 1px solid #000;
+}
+ .box_button1:hover,.box_button2:hover,.box_button3:hover,.box_button4:hover,.box_button5:hover,.box_button6:hover{
+    background: #00ccff;
+    cursor: pointer;
+    transition-duration: 0.5s;
+ }
+
+ .brick_vector{
+    margin-left: 56px;
+    margin-top: 7px;
+ }
+ .art_vector{
+    margin-left: 57px;
+    margin-top: 7px;
+ }
+.font_option{
+    color: #fff;
+    font-size: 90pt;
+    margin-left: 67px;
+    margin-top: 10px;
+
+}
+.spray_option{
+    color: white;
+    font-size: 86pt;
+    margin-left: 80px;
+    margin-top: 15px;
+
+}
+.brush_option{
+    color: white;
+    font-size: 86pt;
+    margin-left: 80px;
+    margin-top: 17px;
+
+}
+.file_option{
+    color: white;
+    font-size: 60pt;
+    margin-left: 92px;
+    margin-top: 17px;
+
+}
+.save_file{
+    font-family: 'psl_advertspregular';
+    font-size: 28pt;
+    color: #fff; 
+    font-weight: normal;
+    margin-left: 34px;
+}
+.option_wall{
+    background-color: rgba(0,0,0,0.6);
+    width: 1480px;
+    height: 250px;
+    position: relative;
+    top: -106px;
+}
+
+.box_wall1{
+    width: 200px;
+    height: 180px;
+    background: #ff3366;
+    margin-left: 180px;
+    top: 40px;
+    position: relative;
+    float: left;
+    background-image:url("../image/pagemakegraffitiwall/brick1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box_wall1:hover{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ff3366;
+    cursor: pointer;
+}
+.box_wall2{
+    width: 200px;
+    height: 180px;
+    background: #ff3366;
+    margin-left: 100px;
+    top: 40px;
+    position: relative;
+    float: left;
+    background-image:url("../image/pagemakegraffitiwall/brick2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    
+}
+.box_wall2:hover{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ff3366;
+    cursor: pointer;
+}
+.box_wall3{
+    width: 200px;
+    height: 180px;
+    background: #ff3366;
+    margin-left: 100px;
+    top: 40px;
+    position: relative;
+    float: left;
+    background-image:url("../image/pagemakegraffitiwall/brick3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    
+}
+.box_wall3:hover{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ff3366;
+    cursor: pointer;
+}
+
+.box_wall4{
+    width: 200px;
+    height: 180px;
+    background: #ff3366;
+    margin-left: 100px;
+    top: 40px;
+    position: relative;
+    float: left;
+    background-image:url("../image/pagemakegraffitiwall/brick4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    
+}
+.box_wall4:hover{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ff3366;
+    cursor: pointer;
+}
+
+
+.option_font{
+ background-color: rgba(0,0,0,0.6);
+ width: 1480px;
+ height: 250px;
+ position: relative;
+ top: -106px;
+ }
+
+ .drop_down_font{
+     width: 500px;
+     height: 50px;
+     border: 5px solid #ff3366;
+     left: 300px;
+     position: relative;
+     top: 42px;
+     font-size: 24pt;
+     font-family: 'psl_kandaregular';
+     background: #000;
+     color:#ffcc00;
+     font-weight: bold;
+     outline:none;
+     
+
+     
+ }
+ .drop_down_font_size{
+    width: 222px;
+    height: 50px;
+    border: 5px solid #ff3366;
+    top: 130px;
+    left: -209px;
+    position: relative;
+    font-size: 20pt;
+    font-family: 'psl_kandaregular';
+    background: #000;
+    color:#ffcc00;
+    font-weight: bold;
+    outline:none;
+    
+    
+}
+.input_wrapper{
+    width: 500px;
+    height: 50px;
+    /* background: #ffcc00; */
+    position: absolute;
+    right: 45px;
+    top:50px;
+}
+
+.input_RGB{
+    width: 135px;
+    height: 50px;
+    margin-right: 1px;
+    border-top: 50px;
+}
+
+.input_wrapper input{
+    
+    font-size: 35pt;
+    color: #00ccff;
+    font-family: 'psl_kandaregular';
+    /* position: absolute; */
+    text-align:center;
+    border: 5px solid #ff3366;
+    background: #000;
+    
+    
+}
+.input_wrapper input:focus{
+    
+    background:#fff;
+    color:#ff3366;
+    font-weight: normal;
+    outline:none;
+
+}
+
+.display_pic{
+position: relative;
+left: 450px;
+}
+
+.font{
+    font-family: 'loudhailerregular';
+    font-size: 60pt;
+    color: #fff;
+    position: absolute;
+    left: 170px;
+    top: 34px;
+    font-weight: normal;
+}
+.font_size{
+    font-family: 'loudhailerregular';
+    color: #fff;
+    font-size: 45pt;
+    position: absolute;
+    left: 110px;
+    top: 120px;
+    font-weight: normal;
+}
+.font_rgb{
+    font-family: 'loudhailerregular';
+    color: #fff;
+    font-size: 45pt;
+    position: absolute;
+    right: 553px;
+    top: 45px;
+    font-weight: normal;
+}
+.rgb_pic{
+    position: absolute;
+    right: 280px;
+    top: 120px;
+}
+.text_setting_weight{
+    position: absolute;
+    width: 170px;
+    height: 50px;
+    /* background: #999999; */
+    position: absolute;
+    left: 560px;
+    top: 140px;
+}
+.text_setting_weight i{
+    color: white;
+    font-size:28pt;
+    margin-left: 15px;
+}
+.text_setting_weight i:hover{
+    color: #ffcc00;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.text_setting_align{
+    position: absolute;
+    width: 170px;
+    height: 50px;
+    /* background: #999999; */
+    position: absolute;
+    left: 750px;
+    top: 140px; 
+}
+.text_setting_align i{
+    color: white;
+    font-size:28pt;
+    margin-left: 15px;
+}
+.text_setting_align i:hover{
+    color: #ffcc00;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+ 
+
+.option_spray{
+    background-color: rgba(0,0,0,0.6);
+    width: 1480px;
+    height: 250px;
+    position: relative;
+    top: -106px;
+}
+
+.spray_size{
+
+    font-family: 'loudhailerregular';
+    color: #fff;
+    font-size: 45pt;
+    position: relative;
+    left: 230px;
+    top: 20px;
+    font-weight: normal;
+}
+
+.option_paint{
+    background-color: rgba(0,0,0,0.6);
+    width: 1480px;
+    height: 250px;
+    position: relative;
+    top: -106px;
+}
+
+.brush_type{
+    width: 300px;
+    height: 100px;
+    /* background: #ff6699; */
+    position: relative;
+    left: 80px;
+    top: 80px;
+    float: left;
+}
+.brush_type i{
+    color: white;
+    margin-left: 20px;
+    font-size: 80px;
+    
+}
+.brush_type i:hover{
+    color: #ffcc00;
+    cursor: pointer;
+    transition-duration: 0.5s;
+
+    
+}
+
+.option_art{
+    background-color: rgba(0,0,0,0.6);
+    width: 1480px;
+    height: 250px;
+    position: relative;
+    top: -106px;
+}
+
+.box_art1{
+    width: 200px;
+    height: 180px;
+    /* background: #ff3366; */
+    margin-left: 180px;
+    top: 40px;
+    position: relative;
+    float: left;
+    background-image:url("../image/pagemakegraffitiwall/art1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box_art1:hover{
+    
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.box_art2{
+    width: 200px;
+    height: 180px;
+    /* background: #ff3366; */
+    margin-left: 100px;
+    top: 40px;
+    position: relative;
+    float: left;
+    background-image:url("../image/pagemakegraffitiwall/art2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+    
+}
+.box_art2:hover{
+    
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.box_art3{
+    width: 200px;
+    height: 180px;
+    /* background: #ff3366; */
+    margin-left: 100px;
+    top: 40px;
+    position: relative;
+    float: left;
+    background-image:url("../image/pagemakegraffitiwall/art3.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+    
+}
+.box_art3:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.box_art4{
+    width: 200px;
+    height: 180px;
+    /* background: #ff3366; */
+    margin-left: 100px;
+    top: 40px;
+    position: relative;
+    float: left;
+    background-image:url("../image/pagemakegraffitiwall/art4.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+    
+}
+.box_art4:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.option_save{
+    background-color: rgba(0,0,0,0.6);
+    width: 1480px;
+    height: 250px;
+    position: relative;
+    top: -106px;
+}
+
+.download{
+    font-family: 'loudhailerregular';
+    color: #fff;
+    font-size: 45pt;
+    
+    text-align: center;
+    font-weight: normal;
+    position: relative;
+    top: 20px;
+}
+.download:hover{
+    color: #ffcc00;
+    cursor: pointer;
+}
+
+.display_load{
+    position: relative;
+    left: 640px;
+}
+ /* ----------------footer------------- */
+ .head_contact{
+    width: 100%;
+    height: 75px;
+    background-color: #000;
+}
+.head_contact_text{
+    font-family: 'psl_advertspregular';
+    font-size: 40pt;
+    color: #fff;
+    font-weight: normal;
+    position: relative;
+    padding-left:550px;
+    top: 13px;
+    /* background: #00ccff; */
+    
+    
+    
+}
+#wrapper_contact{
+    width: 100%;
+    height: 430px;
+    background-color: thistle;
+    background-image: url("../image/pagehome/contactBG.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+}
+.box_contact{
+    width: 575px;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    position: relative;
+    left: 450px;
+}
+.logo_on_contact{
+    position: absolute;
+    left:220px;
+    top: 5px;
+}
+.logo_on_contact:hover{
+    
+    transition-duration: 0.5s;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+#email{
+    width:445px;
+    height: 60px;
+    border-radius: 10px;
+    /* position: absolute; */
+    left: 70px;
+    position: relative;
+    top: 160px;
+}
+.box_contact input{
+    
+    font-size: 35pt;
+    color: #999999;
+    font-family: 'psl_advertspregular';
+    position: absolute;
+    top: 80px;
+    text-align:center;
+    border: 0;
+}
+.box_contact input:focus{
+    
+    background: black;
+    color: white;
+    font-weight: normal;
+    outline:none;
+}
+#phone{
+    width:445px;
+    height: 60px;
+    border-radius: 10px;
+    position: absolute;
+    left: 70px;
+    top: 240px;
+} 
+.submit_contact{
+    width: 155px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #00ccff;
+    position: absolute;
+    left: 210px;
+    top: 330px;
+}
+.submit_text{
+    font-size: 34pt;
+    color: #000;
+    font-family: 'psl_advertspregular';
+    position: absolute;
+    text-align:center;
+    left: 18px; 
+    top: 8px;
+    font-weight: normal;
+}
+.submit_text:hover{
+    color: #fff;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+#footer{
+    height:270px;
+    width: 100%;
+    background-color: #000;
+    position: relative;
+}
+.menu_bar_bottom{
+    width: 1200px;
+    height: 35px;
+    /* background-color: teal; */
+    margin-left: 147px;
+    margin-top: 20px;
+    position: absolute
+}
+.menu_bar_bottom a{
+    font-family: 'loudhailerregular';
+   font-size: 30pt;
+   color: white;
+   text-decoration: none;
+   margin-left: 63px;
+}
+.menu_bar_bottom a:hover{
+    color: #ff6699;
+}
+.line{
+    width:1070px;
+    height:15px;
+    background-color: #00ccff;
+    position: absolute;
+    top: 60px;
+    left: 207px;
+}
+
+.logo_on_footer{
+    position: relative;
+    left: 670px;
+    top: 95px;
+}
+.logo_on_footer:hover{
+    transition-duration: 0.5s;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.email{
+    font-size: 30pt;
+    color: #fff;
+    font-family: 'psl_advertspregular';
+    position: absolute;
+    top: 120px;
+    text-align: center;
+    left: 300px;
+}
+.logo_face{
+    font-size: 60pt;
+    color: #ff6699;
+    position: absolute;
+    right: 540px;
+    top: 120px;
+}
+.logo_face:hover{
+    cursor: pointer;
+    transition-duration: 0.5s;
+    color: white;
+}
+.logo_twitter{
+    font-size: 60pt;
+    color: #ff6699;
+    position: absolute;
+    right: 440px;
+    top: 120px;
+}
+.logo_twitter:hover{
+    cursor: pointer;
+    transition-duration: 0.5s;
+    color: white;
+}
+.logo_youtube{
+    font-size: 60pt;
+    color: #ff6699;
+    position: absolute;
+    right: 340px;
+    top: 120px;
+}
+.logo_youtube:hover{
+    cursor: pointer;
+    transition-duration: 0.5s;
+    color: white;
+}
+.copyright{
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+}
+.text_copyright{
+   
+    font-family: 'loudhailerregular';
+   font-size: 26pt;
+   color: #000;
+   text-align: center;
+   
+   pading-left: 640px;
+   padding-top: 5px;
+   position: relative;
+   /* background: #00ccff; */
+}

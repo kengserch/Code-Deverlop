@@ -1,0 +1,853 @@
+@font-face {
+    font-family: 'dumbnerdregular';
+    src: url('../font/dumbnerd-webfont.eot');
+    src: url('../font/dumbnerd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/dumbnerd-webfont.woff2') format('woff2'),
+         url('../font/dumbnerd-webfont.woff') format('woff'),
+         url('../font/dumbnerd-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'loudhailerregular';
+    src: url('../font/loudhailer-webfont.eot');
+    src: url('../font/loudhailer-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/loudhailer-webfont.woff2') format('woff2'),
+         url('../font/loudhailer-webfont.woff') format('woff'),
+         url('../font/loudhailer-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'psl_advertspregular';
+    src: url('../font/psl021sp-webfont.eot');
+    src: url('../font/psl021sp-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/psl021sp-webfont.woff2') format('woff2'),
+         url('../font/psl021sp-webfont.woff') format('woff'),
+         url('../font/psl021sp-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'psl_kandaregular';
+    src: url('../font/psl152-webfont.eot');
+    src: url('../font/psl152-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/psl152-webfont.woff2') format('woff2'),
+         url('../font/psl152-webfont.woff') format('woff'),
+         url('../font/psl152-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{box-sizing: border-box;}
+body{
+
+	background: gray;
+}
+#wrapper{
+    
+    width: 1480px;
+    margin: 0 auto;
+    background: black;
+  
+ 
+}
+.banner{
+    
+    width: 100%;
+	height: 808px;
+	background-image:url("../image/pagehome/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.logo_contact{
+    width: 300px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 37px;
+}
+.face_banner:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.twitter_banner:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.youtube_banner:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.logo_banner{
+    width: 220px;
+    height: 210px;
+    padding-left: 630px;
+    padding-top: 15px;
+    
+}
+.logo_banner img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.text_banner{
+width: 100%;
+height: 390px;
+background-color: rgba(0,0,0,0.6);
+margin-top: 30px;
+position: relative;
+}
+.text_banner h1{
+    border-top: 400px;
+    font-family: 'dumbnerdregular';
+    font-size: 220pt;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    position: relative;
+    
+}
+.text_banner h2{
+    font-family: 'dumbnerdregular';
+    font-size: 87pt;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    position: relative;
+    top: -40px;
+    
+}
+
+.line_1{
+    height: 10px;
+    width: 228px;
+    background-color: white;  
+    position: relative;
+    top: -100px;
+    left: 300px;
+}
+.line_2{
+    
+    height: 10px;
+    width: 228px;
+    background-color: white;
+    position: relative;
+    float: right;
+    top:-110px;
+    right: 300px;
+}
+.box_menu{
+    height: 140px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    float: left;
+    
+
+}
+.menu_bar{
+    width: 100%;
+    height: 60px;
+    /* background-color: aquamarine; */
+    position: relative;
+    top: 43px;
+}
+.menu_bar a{
+font-family: 'loudhailerregular';
+   font-size: 38pt;
+   color: white;
+   text-decoration: none;
+   margin-left: 45px;
+   padding-left: 30px;
+   
+}
+.menu_bar a:hover{
+    cursor: pointer;
+    color: #ff6699;
+    text-decoration-line: underline;
+}
+
+
+#content_wrapper{
+
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.wrapper_graffiti{
+    width: 100%;
+    height: 930px;
+    /* background-color: antiquewhite; */
+    position: relative;
+}
+.graffiti_picture{
+    margin-top: 5px;
+    opacity: 0.8;
+}
+.graffiti_picture:hover{
+    
+    transition-duration: 0.5s;
+    transform: rotate(1deg);
+    cursor: pointer;
+    opacity: 1;
+    
+}
+.vector_graffiti_head{
+    margin-top: 20px;
+    float: right;
+    position: absolute;
+    right: 30px;
+    margin-right: 60px;
+}
+
+
+.head_graffiti{
+    font-family: 'loudhailerregular'; 
+   font-size: 160pt;
+   color: #00ccff;
+   position: absolute;
+   right : 180px;
+   top : 150px;
+   transform: rotate(-23deg);
+   font-weight: normal;
+}
+
+.head_graffiti:hover{
+    color: #ff3366;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.head_graffiti1{
+    font-family: 'psl_advertspregular';
+    font-size: 150pt;
+    color: #ff3366;
+    position: absolute;
+    right : 170px;
+    top : 370px;
+    transform: rotate(14deg);
+    font-weight: normal;
+ }
+ .head_graffiti1:hover{
+    color: #00ccff;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+ .detail_graffiti{
+    font-family: 'psl_kandaregular';
+     color: white;
+     font-size: 40pt;
+     font-weight: bold ;
+     position: absolute;
+     right : 290px;
+     top : 580px;
+ }
+ .detail_graffiti:hover{
+     color: #99cc66;
+     transition-duration: 0.5s;
+     cursor: text;
+ }
+ #wrapper_event{
+    width: 100%;
+    height: 930px;
+    /* background-color: chocolate; */
+    position: relative;
+ }
+ .vector_event_head{
+     position: absolute;
+     top : 20px;
+     left: 40px;
+ }
+ .event_picture{
+     position: absolute;
+     right: 0px;
+ }
+ .event_picture:hover{
+    transition-duration: 0.5s;
+    transform: rotate(-1deg);
+    cursor: pointer;
+ } 
+ .head_event{
+    font-family: 'loudhailerregular';
+    font-size: 180pt;
+    color: #ff3366;
+    position: absolute;
+    left: 100px;
+    top : 80px;
+    transform: rotate(12deg);
+    font-weight: normal;
+ }
+ .head_event:hover{
+    color: #ffcc00;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+ .head_event1{
+    font-family: 'psl_advertspregular'; 
+    font-size: 150pt;
+    color: #ff3366;
+    position: absolute;
+    right : 550px;
+    top : -100px;
+    transform: rotate(-14deg);
+    font-weight: normal;
+ }
+ .head_event1:hover{
+    color: #00ccff;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.detail_event{
+    font-family: 'psl_kandaregular';
+     color: white;
+     font-size: 70pt;
+     font-weight: bold ;
+     position: absolute;
+     left : 230px;
+     top : 400px;
+}
+.detail_event:hover{
+     color: #99cc66;
+     transition-duration: 0.5s;
+     cursor: text;
+}
+.vector_event_seemore{
+    position: absolute;
+    top: 590px;
+    left: 220px;
+}
+.head_seemore_event{
+    text-shadow: 4px 4px #000;
+    font-family: 'psl_kandaregular';
+    font-weight: bold ;
+    position: absolute;
+    color: white;
+    font-size: 70pt;
+    top: 640px;
+    left: 360px;
+}
+.head_seemore_event:hover{
+    transition-duration: 0.5s;
+    text-shadow: 4px 4px #000;
+    color: #ffcc00;
+    cursor: pointer;
+}
+
+#wrapper_gallery{
+    width: 100%;
+    height: 930px;
+    /* background-color: chocolate; */
+    position: relative;
+ }
+ .gallery_picture1{
+     position: absolute;
+     right: 0px;
+     z-index: 3;
+     opacity: 0.8;
+ }
+ .gallery_picture1:hover{
+    transition-duration: 0.5s;
+    transform: rotate(-1deg);
+    cursor: pointer;
+    opacity: 1;
+ } 
+ .gallery_picture2{
+    position: absolute;
+    left: 40px;
+    top: -30px;
+    z-index: 2;
+    opacity: 0.8;
+ }
+ .gallery_picture2:hover{
+    transition-duration: 0.5s;
+    transform: rotate(1deg);
+    cursor: pointer;
+    opacity: 1;
+ } 
+ .gallery_picture3{
+    position: absolute;
+    left: 40px;
+    top: 400px;
+    z-index: 1;
+    opacity: 0.8;
+ }
+ .gallery_picture3:hover{
+    transition-duration: 0.5s;
+    transform: rotate(1deg);
+    cursor: pointer;
+    opacity: 1;
+ } 
+ .vector_gallery_head{
+    z-index: 5; 
+    position: absolute;
+    right: 50px;
+ }
+ .vector_gallery_seemore{
+    z-index: 5; 
+    position: absolute;
+    right: 300px;
+    top: 700px;
+ }
+ .head_gallery{
+    font-family: 'loudhailerregular';
+    font-size: 140pt;
+    color: #ffcc00;
+    position: absolute;
+    right: 85px;
+    top : 80px;
+    transform: rotate(15deg);
+    font-weight: normal;
+    z-index: 6;
+ }
+ .head_gallery:hover{
+    color: #00ccff;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+ 
+ .head_gallery1{
+    font-family: 'psl_advertspregular';
+    font-size: 150pt;
+    color: #00ccff;
+    position: absolute;
+    right : 580px;
+    top : -100px;
+    transform: rotate(-14deg);
+    font-weight: normal;
+    z-index: 6;
+ }
+ .head_gallery1:hover{
+    color: #ffcc00;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+ .head_seemore_gallery{
+    text-shadow: 4px 4px #000;
+    font-family: 'psl_kandaregular';
+    font-weight: bold ;
+    position: absolute;
+    color: white;
+    font-size: 80pt;
+    top: 720px;
+    right: 400px;
+    z-index: 6;
+ }
+ .head_seemore_gallery:hover{
+    transition-duration: 0.5s;
+    text-shadow: 4px 4px #000;
+    color: #ffcc00;
+    cursor: pointer;
+}
+ 
+ #wrapper_location{
+    width: 100%;
+    height: 1100px;
+    /* background-color: chocolate; */
+    position: relative;
+ }
+ #wrapper_location a{
+    text-decoration: none;
+ }
+ .location_picture{
+    position: absolute;
+    left: 0px;
+    top: 150px;
+    z-index: 1;
+    opacity: 0.8;
+}
+.location_picture:hover{
+    transition-duration: 0.5s;
+    transform: rotate(1deg);
+    cursor: pointer;
+    opacity: 1;
+ } 
+
+ .vector_location_head{
+    position: absolute;
+    left: 50px;
+    top: 70px;
+    z-index: 2;
+ }
+ .vector_location_seemore{ 
+    position: absolute;
+    right: 300px;
+    top: 800px;
+ }
+ .head_location{
+    font-family: 'loudhailerregular'; 
+    font-size: 100pt;
+    color: #fff;
+    position: absolute;
+    left: 125px;
+    top : 180px;
+    
+    font-weight: normal;
+    z-index: 6;
+ }
+ .head_location:hover{
+    color: #ffcc00;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+ .head_location1{
+    font-family: 'psl_advertspregular';
+    font-size: 130pt;
+    color: #ffcc00;
+    position: absolute;
+    right : 100px;
+    top : 290px;
+    transform: rotate(-14deg);
+    font-weight: normal;
+    z-index: 6;
+ }
+ .head_location1:hover{
+    color: #fff;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+ .head_seemore_location{
+    text-shadow: 4px 4px #000;
+    font-family: 'psl_kandaregular';
+    font-weight: bold ;
+    position: absolute;
+    color: white;
+    font-size: 75pt;
+    top: 810px;
+    right: 450px;
+    z-index: 6;
+ }
+ .head_seemore_location:hover{
+    transition-duration: 0.5s;
+    text-shadow: 4px 4px #000;
+    color: #ffcc00;
+    cursor: pointer;
+}
+ .detail_location{
+    font-family: 'psl_advertspregular';
+    font-weight: normal;
+    position: absolute;
+    color: white;
+    font-size: 60pt;
+    top: 550px;
+    right: 150px;
+    z-index: 6;
+ }
+ .detail_location:hover{
+    color: #99cc66;
+     transition-duration: 0.5s;
+     cursor: text;
+}
+ .location_icon i{
+     font-size: 170pt;
+     color: white;
+     position: absolute;
+     right : 430px;
+     top: 76px;
+ }
+ .location_icon i:hover{
+     color: #ff3366;
+     transition-duration: 0.5s;
+     cursor: pointer;
+ }
+ 
+ 
+ #graffiti_wrapper{
+
+    width: 100%;
+    height: 650px;
+    background-color: #ffcc00;
+    background-image: url("../image/pagehome/wall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+ } 
+ .vector_graffiti_wall{
+     position: relative;
+     left:250px;
+     top: 10px;
+ } 
+ .head_graffiti_wall{
+    font-family: 'loudhailerregular';
+    font-size: 140pt;
+    color: #ffcc00;
+    position: absolute;
+    font-weight: normal;
+    left: 400px;
+    top: 50px;
+ }
+ .head_graffiti_wall:hover{
+    color: #fff;
+    transform: scale(1.03);
+    transition-duration: 0.5s;
+    cursor: pointer;
+ }
+ .graffiti_wall_detail{
+    font-family: 'psl_advertspregular';
+    font-size: 80pt;
+    color: #fff;
+    position: relative;
+    padding-left: 300px;
+    
+    font-weight: normal;
+ }
+ .graffiti_wall_detail:hover{
+    color: #00ccff;
+    transition-duration: 0.5s;
+    cursor: pointer;
+ }
+ .down_icon i{
+    font-size: 110pt;
+    color: white;
+    position: relative;
+    left : 700px;
+    
+ }
+ .down_icon i:hover{
+    transition-duration: 0.5s;
+    cursor: pointer;
+    transform: scale(1.2);
+    color: #00ccff;
+ }
+.button_graffiti{
+    width: 260px;
+    height: 75px;
+    background-color: #ff3366;
+    border-radius: 20px;
+    position: relative;
+    
+    left: 620px;
+    top: 30px;
+    
+}
+.button_graffiti a{
+    text-decoration: none;
+}
+.text_button_graffiti{
+    font-family: 'psl_advertspregular';
+    font-size: 57pt;
+    color: #fff;
+    font-weight: normal;
+    margin-left: 45px;
+    padding-top: 5px;
+    
+}
+.text_button_graffiti:hover{
+    color: #000;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.head_contact{
+    width: 100%;
+    height: 75px;
+    background-color: #000;
+}
+.head_contact_text{
+    font-family: 'psl_advertspregular';
+    font-size: 40pt;
+    color: #fff;
+    font-weight: normal;
+    position: relative;
+    padding-left:550px;
+    top: 13px;
+    /* background: #00ccff; */
+    
+    
+    
+}
+#wrapper_contact{
+    width: 100%;
+    height: 430px;
+    background-color: thistle;
+    background-image: url("../image/pagehome/contactBG.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+}
+.box_contact{
+    width: 575px;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    position: relative;
+    left: 450px;
+}
+.logo_on_contact{
+    position: absolute;
+    left:220px;
+    top: 5px;
+}
+.logo_on_contact:hover{
+    
+    transition-duration: 0.5s;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+#email{
+    width:445px;
+    height: 60px;
+    border-radius: 10px;
+    /* position: absolute; */
+    left: 70px;
+    position: relative;
+    top: 160px;
+}
+.box_contact input{
+    
+    font-size: 35pt;
+    color: #999999;
+    font-family: 'psl_advertspregular';
+    position: absolute;
+    top: 80px;
+    text-align:center;
+    border: 0;
+}
+.box_contact input:focus{
+    
+    background: black;
+    color: white;
+    font-weight: normal;
+    outline:none;
+}
+#phone{
+    width:445px;
+    height: 60px;
+    border-radius: 10px;
+    position: absolute;
+    left: 70px;
+    top: 240px;
+} 
+.submit_contact{
+    width: 155px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #00ccff;
+    position: absolute;
+    left: 210px;
+    top: 330px;
+}
+.submit_text{
+    font-size: 34pt;
+    color: #000;
+    font-family: 'psl_advertspregular';
+    position: absolute;
+    text-align:center;
+    left: 18px; 
+    top: 8px;
+    font-weight: normal;
+}
+.submit_text:hover{
+    color: #fff;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+#footer{
+    height:270px;
+    width: 100%;
+    background-color: #000;
+    position: relative;
+}
+.menu_bar_bottom{
+    width: 1200px;
+    height: 35px;
+    /* background-color: teal; */
+    margin-left: 147px;
+    margin-top: 20px;
+    position: absolute
+}
+.menu_bar_bottom a{
+    font-family: 'loudhailerregular';
+   font-size: 30pt;
+   color: white;
+   text-decoration: none;
+   margin-left: 63px;
+}
+.menu_bar_bottom a:hover{
+    color: #ff6699;
+}
+.line{
+    width:1070px;
+    height:15px;
+    background-color: #00ccff;
+    position: absolute;
+    top: 60px;
+    left: 207px;
+}
+
+.logo_on_footer{
+    position: relative;
+    left: 670px;
+    top: 95px;
+}
+.logo_on_footer:hover{
+    transition-duration: 0.5s;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.email{
+    font-size: 30pt;
+    color: #fff;
+    font-family: 'psl_advertspregular';
+    position: absolute;
+    top: 120px;
+    text-align: center;
+    left: 300px;
+}
+.logo_face{
+    font-size: 60pt;
+    color: #ff6699;
+    position: absolute;
+    right: 540px;
+    top: 120px;
+}
+.logo_face:hover{
+    cursor: pointer;
+    transition-duration: 0.5s;
+    color: white;
+}
+.logo_twitter{
+    font-size: 60pt;
+    color: #ff6699;
+    position: absolute;
+    right: 440px;
+    top: 120px;
+}
+.logo_twitter:hover{
+    cursor: pointer;
+    transition-duration: 0.5s;
+    color: white;
+}
+.logo_youtube{
+    font-size: 60pt;
+    color: #ff6699;
+    position: absolute;
+    right: 340px;
+    top: 120px;
+}
+.logo_youtube:hover{
+    cursor: pointer;
+    transition-duration: 0.5s;
+    color: white;
+}
+.copyright{
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+}
+.text_copyright{
+   
+    font-family: 'loudhailerregular';
+   font-size: 26pt;
+   color: #000;
+   text-align: center;
+   
+   pading-left: 640px;
+   padding-top: 5px;
+   position: relative;
+   /* background: #00ccff; */
+}
+
+
+

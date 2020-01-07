@@ -1,0 +1,826 @@
+@font-face {
+    font-family: 'dumbnerdregular';
+    src: url('../font/dumbnerd-webfont.eot');
+    src: url('../font/dumbnerd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/dumbnerd-webfont.woff2') format('woff2'),
+         url('../font/dumbnerd-webfont.woff') format('woff'),
+         url('../font/dumbnerd-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'loudhailerregular';
+    src: url('../font/loudhailer-webfont.eot');
+    src: url('../font/loudhailer-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/loudhailer-webfont.woff2') format('woff2'),
+         url('../font/loudhailer-webfont.woff') format('woff'),
+         url('../font/loudhailer-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'psl_advertspregular';
+    src: url('../font/psl021sp-webfont.eot');
+    src: url('../font/psl021sp-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/psl021sp-webfont.woff2') format('woff2'),
+         url('../font/psl021sp-webfont.woff') format('woff'),
+         url('../font/psl021sp-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'psl_kandaregular';
+    src: url('../font/psl152-webfont.eot');
+    src: url('../font/psl152-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/psl152-webfont.woff2') format('woff2'),
+         url('../font/psl152-webfont.woff') format('woff'),
+         url('../font/psl152-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{box-sizing: border-box;}
+body{
+
+	background: gray;
+}
+#wrapper{
+    
+    width: 1480px;
+    margin: 0 auto;
+    background: black;
+  
+ 
+}
+.banner{
+    
+    width: 100%;
+	height: 808px;
+	background-image:url("../image/pagehome/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.logo_contact{
+    width: 300px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 37px;
+}
+.face_banner:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.twitter_banner:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.youtube_banner:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.logo_banner{
+    width: 220px;
+    height: 210px;
+    padding-left: 630px;
+    padding-top: 15px;
+    
+}
+.logo_banner img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.text_banner{
+width: 100%;
+height: 390px;
+background-color: rgba(0,0,0,0.6);
+margin-top: 30px;
+position: relative;
+}
+.text_banner h1{
+    border-top: 400px;
+    font-family: 'dumbnerdregular';
+    font-size: 220pt;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    position: relative;
+    
+}
+.text_banner h2{
+    font-family: 'dumbnerdregular';
+    font-size: 87pt;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    position: relative;
+    top: -40px;
+    
+}
+
+.line_1{
+    height: 10px;
+    width: 228px;
+    background-color: white;  
+    position: relative;
+    top: -100px;
+    left: 300px;
+}
+.line_2{
+    
+    height: 10px;
+    width: 228px;
+    background-color: white;
+    position: relative;
+    float: right;
+    top:-110px;
+    right: 300px;
+}
+.box_menu{
+    height: 140px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    float: left;
+    
+
+}
+.menu_bar{
+    width: 100%;
+    height: 60px;
+    /* background-color: aquamarine; */
+    position: relative;
+    top: 43px;
+}
+.menu_bar a{
+font-family: 'loudhailerregular';
+   font-size: 38pt;
+   color: white;
+   text-decoration: none;
+   margin-left: 45px;
+   padding-left: 30px;
+   
+}
+.menu_bar a:hover{
+    cursor: pointer;
+    color: #ff6699;
+    text-decoration-line: underline;
+}
+
+#content_head{
+   width: 100%;
+   height: 1650px;
+   background: #000;
+}
+.head_location_1{
+    font-family: 'loudhailerregular';
+   font-size: 225pt;
+   color: #00ccff;
+   text-decoration: underline;
+   margin-left: 145px;
+   margin-top: 75px;
+   transform: scale(0.8);
+   
+}
+.head_location:hover{
+    color: #fff;
+    transition-duration: 0.5s;
+}
+.head_location1{
+    font-family: 'psl_advertspregular';
+    color: #ffcc00;
+    font-size: 158pt;
+    margin-left: 370px;
+    font-weight: normal;
+    transform: scale(0.8);
+    margin-top : -55px;
+}
+.location_picture1{
+    opacity: 0.7;
+    position: relative;
+    left: 30px;
+    transform: scale(0.9);
+    top: -130px;
+}
+.location_picture1:hover{
+    opacity: 1;
+}
+.location_picture2{
+    opacity: 0.7;
+    position: relative;
+    
+    margin-top: 90px;
+    transform: scale(0.9);
+}
+.location_picture2:hover{
+    opacity: 1;
+}
+.location_picture3{
+    opacity: 0.7;
+    position: relative;
+    transform: scale(0.9);
+    float: right;
+    top: -650px;
+}
+.location_picture3:hover{
+    opacity: 1;
+}
+.location_picture4{
+    opacity: 0.7;
+    position: relative;
+    top: -200px;
+    transform: scale(0.9);
+    left: 30px;
+}
+.location_picture4:hover{
+    opacity: 1;
+}
+.location_picture5{
+    opacity: 0.7;
+    position: relative;
+    left: 115px;
+    top: -550px;
+    transform: scale(0.9);
+}
+.location_picture5:hover{
+    opacity: 1;
+}
+.location_picture6{
+    opacity: 0.7;
+    position: relative;
+    float: right;
+    transform: scale(0.9);
+    top:-700px;
+}
+.location_picture6:hover{
+    opacity: 1;
+}
+.head_mid{
+    font-family : 'psl_advertspregular';
+    font-size : 130pt;
+    color: white;
+    position: relative;
+    font-weight : bold;
+    top:-960px;
+    left: 70px;
+    float: left;
+}
+.head_mid:hover{
+    background-image:url("../image/pagelocation/vectorhover.png");
+	background-repeat: no-repeat;
+    background-size: 400px 170px;
+    color: #ff3366;
+    cursor: pointer;
+    transition-duration: 0.7s;
+}
+.head_east{
+    font-family : 'psl_advertspregular';
+    font-size : 110pt;
+    color: white;
+    position: relative;
+    font-weight : bold;
+    top: -1363px;
+    left: 500px;
+    float: left;
+}
+.head_east:hover{
+    background-image:url("../image/pagelocation/vectorhover.png");
+	background-repeat: no-repeat;
+    background-size: 510px 170px;
+    color: #ff3366;
+    cursor: pointer;
+    transition-duration: 0.7s;
+}
+.head_west{
+    font-family : 'psl_advertspregular';
+    font-size : 110pt;
+    color: white;
+    position: relative;
+    top: -1484px;
+    float: right;
+    font-weight : bold;
+    right: 30px;
+}
+.head_west:hover{
+    background-image:url("../image/pagelocation/vectorhover.png");
+	background-repeat: no-repeat;
+    background-size: 455px 170px;
+    color: #ff3366;
+    cursor: pointer;
+    transition-duration: 0.7s;
+}
+.head_east_north{
+    font-family : 'psl_advertspregular';
+    font-size : 90pt;
+    color: white;
+    position: relative;
+    top: -1073px;
+    left: -456px;
+    font-weight : bold;
+    float: left;
+   
+    text-align: center;
+    
+}
+.head_east_north:hover{
+    background-image:url("../image/pagelocation/vectorhover.png");
+	background-repeat: no-repeat;
+    background-size: 430px 300px;
+    
+    color: #ff3366;
+    cursor: pointer;
+    transition-duration: 0.7s;
+}
+.head_north{
+    font-family : 'psl_advertspregular';
+    font-size : 130pt;
+    color: white;
+    position: relative;
+    top: -1016px;
+    left: -382px;
+    float: left;
+    font-weight : bold;
+}
+.head_north:hover{
+    background-image:url("../image/pagelocation/vectorhover.png");
+	background-repeat: no-repeat;
+    background-size: 410px 170px;
+    color: #ff3366;
+    cursor: pointer;
+    transition-duration: 0.7s;
+}
+.head_south{
+    font-family : 'psl_advertspregular';
+    font-size : 130pt;
+    color: white;
+    position: relative;
+    top:-1335px;
+    float: right;
+    right: 110px;
+    font-weight : bold;
+}
+.head_south:hover{
+    background-image:url("../image/pagelocation/vectorhover.png");
+	background-repeat: no-repeat;
+    background-size: 275px 170px;
+    color: #ff3366;
+    cursor: pointer;
+    transition-duration: 0.7s;
+}
+
+/* ------------------content detail------------------------------------ */
+
+#content_detail_mid{
+     width: 100%;
+     height: 1800px;
+     background: #000;
+     position: relative;
+}
+#content_detail_east{
+    width: 100%;
+    height: 1800px;
+    background: #000;
+    position: relative;
+}
+#content_detail_west{
+    width: 100%;
+    height: 1800px;
+    background: #000;
+    position: relative;
+}
+#content_detail_east_north{
+    width: 100%;
+    height: 1800px;
+    background: #000;
+    position: relative;
+}
+#content_detail_north{
+    width: 100%;
+    height: 1800px;
+    background: #000;
+    position: relative;
+}
+#content_detail_south{
+    width: 100%;
+    height: 1800px;
+    background: #000;
+    position: relative;
+}
+.location_vector1{
+    position: relative;
+    transform: scale(0.8);
+    float: right;
+    right: 30px;
+    top: -470px;
+    
+}
+.location_vector1:hover{
+    transition-duration: 0.3s;
+    -webkit-filter: drop-shadow(2px 2px 5px #ffcc00);
+}
+.location_vector2{
+    position: relative;
+    transform: scale(0.8);
+    float: left;
+    top:-792px;
+    left: 30px;
+    
+}
+.location_vector2:hover{
+    transition-duration: 0.3s;
+    -webkit-filter: drop-shadow(2px 2px 5px #ff3366);
+}
+.location_photo1{
+    position: absolute;
+    
+    transform: scale(0.85);
+    left:140px;
+    top: 200px;
+}
+.location_photo1:hover{
+    transform: rotate(-1deg);
+    transition-duration: 0.5s;
+}
+.location_photo2{
+    position: absolute;
+    transform: scale(0.85);
+    top: 900px;
+    float: left;
+    left: 700px;
+    
+    
+}
+.location_photo2:hover{
+    transform: rotate(1deg);
+    transition-duration: 0.5s;
+}
+
+.detail_1{
+    font-family : 'psl_advertspregular';
+    font-size : 46pt;
+    color:black;
+    position: absolute;
+    left: 770px;
+    line-height: 65pt;
+    font-weight: normal;
+    top: 370px;
+}
+.map_1{
+    font-family : 'psl_advertspregular';
+    font-size : 52pt;
+    color:black;
+    position: absolute;
+    font-weight: bold;
+    top: 300px;
+    left: 971px;
+}
+.logo_map1{
+    font-size: 70pt;
+    color: #000;
+    position: absolute;
+    top: 210px;
+    left: 1090px;
+}
+.logo_map1:hover{
+    transition-duration: 0.8s;
+    transform: scale(1.4);
+    cursor: pointer;
+}
+.detail_2{
+    font-family : 'psl_advertspregular';
+    font-size : 46pt;
+    color:black;
+    position: absolute;
+    line-height: 65pt;
+    font-weight: normal;
+    float: left;
+    top: 1060px;
+    left: 330px;
+}
+.map_2{
+    font-family : 'psl_advertspregular';
+    font-size : 52pt;
+    color:black;
+    position: absolute;
+    font-weight: bold;
+    top: 1000px;
+    left: 420px;
+}
+.logo_map2{
+    font-size: 70pt;
+    color: #000;
+    position: absolute;
+    top: 950px;
+    left: 290px;
+    
+}
+.logo_map2:hover{
+    transition-duration: 0.8s;
+    transform: scale(1.4);
+    cursor: pointer;
+    
+}
+
+/* ------------FOOTER------------------------ */
+
+#graffiti_wrapper{
+
+    width: 100%;
+    height: 650px;
+    background-color: #ffcc00;
+    background-image: url("../image/pagehome/wall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+ } 
+ .vector_graffiti_wall{
+     position: absolute;
+     left:250px;
+     top: 10px;
+ } 
+ .head_graffiti_wall{
+    font-family: 'loudhailerregular';
+    font-size: 140pt;
+    color: #ffcc00;
+    position: absolute;
+    font-weight: normal;
+    left: 400px;
+    top: 50px;
+ }
+ .head_graffiti_wall:hover{
+    color: #fff;
+    transform: scale(1.03);
+    transition-duration: 0.5s;
+    cursor: pointer;
+ }
+ .graffiti_wall_detail{
+    font-family: 'psl_advertspregular';
+    font-size: 80pt;
+    color: #fff;
+    position: absolute;
+    padding-left: 300px;
+    top: 250px;
+    font-weight: normal;
+ }
+ .graffiti_wall_detail:hover{
+    color: #00ccff;
+    transition-duration: 0.5s;
+    cursor: pointer;
+ }
+ .down_icon i{
+    font-size: 110pt;
+    color: white;
+    position: absolute;
+    left : 700px;
+    top:350px; 
+    
+ }
+ .down_icon i:hover{
+    transition-duration: 0.5s;
+    cursor: pointer;
+    transform: scale(1.2);
+    color: #00ccff;
+ }
+.button_graffiti{
+    width: 260px;
+    height: 75px;
+    background-color: #ff3366;
+    border-radius: 20px;
+    position: absolute;
+    
+    left: 620px;
+    top: 530px;
+    
+}
+.button_graffiti a{
+    text-decoration: none;
+}
+.text_button_graffiti{
+    font-family: 'psl_advertspregular';
+    font-size: 57pt;
+    color: #fff;
+    font-weight: normal;
+    margin-left: 45px;
+    padding-top: 5px;
+    
+}
+.text_button_graffiti:hover{
+    color: #000;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.head_contact{
+    width: 100%;
+    height: 75px;
+    background-color: #000;
+}
+.head_contact_text{
+    font-family: 'psl_advertspregular';
+    font-size: 40pt;
+    color: #fff;
+    font-weight: normal;
+    position: relative;
+    padding-left:550px;
+    top: 13px;
+    /* background: #00ccff; */
+    
+    
+    
+}
+#wrapper_contact{
+    width: 100%;
+    height: 430px;
+    background-color: thistle;
+    background-image: url("../image/pagehome/contactBG.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+}
+.box_contact{
+    width: 575px;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    position: relative;
+    border-left: 450px;
+    margin-left: 450px;
+    
+}
+.logo_on_contact{
+    position: absolute;
+    left:220px;
+    top: 5px;
+}
+.logo_on_contact:hover{
+    
+    transition-duration: 0.5s;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+#email{
+    width:445px;
+    height: 60px;
+    border-radius: 10px;
+    /* position: absolute; */
+    left: 70px;
+    position: absolute;
+    top: 150px;
+}
+.box_contact input{
+    
+    font-size: 35pt;
+    color: #999999;
+    font-family: 'psl_advertspregular';
+    position: absolute;
+    top: 80px;
+    text-align:center;
+    border: 0;
+}
+.box_contact input:focus{
+    
+    background: black;
+    color: white;
+    font-weight: normal;
+    outline:none;
+}
+#phone{
+    width:445px;
+    height: 60px;
+    border-radius: 10px;
+    position: absolute;
+    left: 70px;
+    top: 240px;
+} 
+.submit_contact{
+    width: 155px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #00ccff;
+    position: absolute;
+    left: 210px;
+    top: 330px;
+}
+.submit_text{
+    font-size: 34pt;
+    color: #000;
+    font-family: 'psl_advertspregular';
+    position: absolute;
+    text-align:center;
+    left: 18px; 
+    top: 8px;
+    font-weight: normal;
+}
+.submit_text:hover{
+    color: #fff;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+#footer{
+    height:270px;
+    width: 100%;
+    background-color: #000;
+    position: relative;
+}
+.menu_bar_bottom{
+    width: 1200px;
+    height: 35px;
+    /* background-color: teal; */
+    margin-left: 147px;
+    margin-top: 20px;
+    position: absolute
+}
+.menu_bar_bottom a{
+    font-family: 'loudhailerregular';
+   font-size: 30pt;
+   color: white;
+   text-decoration: none;
+   margin-left: 63px;
+}
+.menu_bar_bottom a:hover{
+    color: #ff6699;
+}
+.line{
+    width:1070px;
+    height:15px;
+    background-color: #00ccff;
+    position: absolute;
+    top: 60px;
+    left: 207px;
+}
+
+.logo_on_footer{
+    position: relative;
+    left: 670px;
+    top: 95px;
+}
+.logo_on_footer:hover{
+    transition-duration: 0.5s;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.email{
+    font-size: 30pt;
+    color: #fff;
+    font-family: 'psl_advertspregular';
+    position: absolute;
+    top: 120px;
+    text-align: center;
+    left: 300px;
+}
+.logo_face{
+    font-size: 60pt;
+    color: #ff6699;
+    position: absolute;
+    right: 540px;
+    top: 120px;
+}
+.logo_face:hover{
+    cursor: pointer;
+    transition-duration: 0.5s;
+    color: white;
+}
+.logo_twitter{
+    font-size: 60pt;
+    color: #ff6699;
+    position: absolute;
+    right: 440px;
+    top: 120px;
+}
+.logo_twitter:hover{
+    cursor: pointer;
+    transition-duration: 0.5s;
+    color: white;
+}
+.logo_youtube{
+    font-size: 60pt;
+    color: #ff6699;
+    position: absolute;
+    right: 340px;
+    top: 120px;
+}
+.logo_youtube:hover{
+    cursor: pointer;
+    transition-duration: 0.5s;
+    color: white;
+}
+.copyright{
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+}
+.text_copyright{
+   
+    font-family: 'loudhailerregular';
+   font-size: 26pt;
+   color: #000;
+   text-align: center;
+   
+   pading-left: 640px;
+   padding-top: 5px;
+   position: relative;
+   /* background: #00ccff; */
+}
+
